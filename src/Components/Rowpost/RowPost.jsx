@@ -13,8 +13,8 @@ const [urlId, setUrlId] = useState('')
 },[])
 
 const opts = {
-  height: '390',
-  width: '640',
+  height: '300px',
+  width: '100%',
   playerVars: {
     autoplay: 0,
   },

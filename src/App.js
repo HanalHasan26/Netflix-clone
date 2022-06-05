@@ -1,6 +1,7 @@
 
 import './App.css';
 import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar';
 import RowPost from './Components/Rowpost/RowPost';
 import  urls  from './url';
@@ -17,6 +18,7 @@ function App() {
         <RowPost url={urls.horror} title=' Horror' isSmall/>
         <RowPost url={urls.topRated} title=' Top Rated' isSmall/>
         <RowPost url={urls.documentaries} title='Documentaries ' isSmall/>
+        <Footer/>
     </div>
   );
 }
